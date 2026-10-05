@@ -1,0 +1,23 @@
+# Local environment configuration
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Local database files
+/mysql-app/
+/mysql-data/
+/frontend/query

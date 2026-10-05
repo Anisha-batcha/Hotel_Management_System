@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo"
+  },
+  "include": [
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/types.ts",
+    "src/lib/**/*.ts",
+    "src/context/**/*.tsx",
+    "src/**/*.d.ts"
+  ],
+  "exclude": ["src/app/**", "src/environments/**", "src/main.ts"]
+}
